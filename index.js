@@ -40,7 +40,7 @@ app.post("/check",(req,res)=>{
     }
     else{
      
-      res.sendStatus(401).redirect("/");
+      res.sendStatus(404).redirect("/");
     }
 })
  
